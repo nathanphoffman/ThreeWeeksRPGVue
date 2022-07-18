@@ -5,16 +5,15 @@ import Header from '@/components/Header.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/twrpg.png"/>
 
     <div class="wrapper">
-      <Header msg="You did it!" />
-
+      <Header/>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/download">Download</RouterLink>
-        <a href="http://twrpg-simulator.codingastronomer.com/" target="_blank">Simulator</a>
+        <a href="http://twrpg-simulator.codingastronomer.com/" target="_blank">Simulator &#128279;</a>
       </nav>
     </div>
   </header>
@@ -40,6 +39,7 @@ header {
 
 .logo {
   display: block;
+  width: 100px;
   margin: 0 auto 2rem;
 }
 
