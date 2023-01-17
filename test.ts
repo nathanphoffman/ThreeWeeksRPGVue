@@ -10,6 +10,8 @@ const first = () => {
 
 };
 
+test
+
 class testme {
     @first()
     testMethod() {
